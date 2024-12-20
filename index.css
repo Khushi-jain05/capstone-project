@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 8, 22);
+    color:white
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(8, 8, 22);
+    color: white;
+    padding: 10px 48px;
+}
+.portfolio{
+    font-size: 42px;
+    font-family: "Plus Jakarta Sans", serif;
+}
+.info{
+    display: inline-block;
+    font-family:"Plus Jakarta Sans", serif ;
+}
+a{
+    text-decoration: none;
+}
+.project,.about,.blog,.contact{
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 98px;
+    padding-inline: 48px;
+    width: 93vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    display: inline-block;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    
+    margin-bottom: 48px;
+    font-family: "Plus Jakarta Sans", serif;
+    
+}
+.centre-photo{
+    width:93vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    /* margin: 40px; */
+    /* margin-left: 100px; */
+}
+
+.centre-photo img {
+    width: 100%;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8,.grid9{
+    width: 416px;
+    height: 277px;
+    margin-top: 40px;
+}
+.grid{
+    width: 93vw;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid div {
+    width: auto;
+}
+.bottom{
+
+    /* background-color: rgb(0, 24, 27); */
+    /* width: 500px;
+    height: 300px;
+    margin: 40px;
+    margin-left: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    color: white;
+    text-align: center;
+    min-height: 85vh;
+    justify-content: center;
+}
+.ready{
+    font-size: 64px;
+    font-family:"Plus Jakarta Sans", serif;
+    font-weight: bold;
+}
+.discription{
+    font-size: 24px;
+}
+.Explore{
+border-radius: 12px;
+background-color: #A7EE43;
+border: none;
+font-size: 20px;
+cursor: pointer;
+padding: 12px 24px;
+width: 40%;
+width: 239px;
+}
+
+.About-me{
+    width: 50%;
+    color:white;
+    margin-bottom: -100px;
+    font-size: 48px;
+    /* margin-left: 90px; */
+    font-family:"Plus Jakarta Sans", serif ;
+    font-weight: bold;
+}
+.me{
+    width: 93vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 98px;
+    
+}
+/* .para {
+    width: 50%;
+    align-items: end;
+} */
+.para{
+    /* text-align: right; */
+    color: white;
+    width: 50%;
+    font-size: 24px;
+    margin-top: -55px;
+    margin-bottom: 80px;
+    font-family: "Plus Jakarta Sans", serif;
+    width:500px;
+    letter-spacing: -0.005em;
+}
+.content{
+    width: 1344px;
+    height: 504px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    padding: 96px 0;
+    
+    font-family: "Plus Jakarta Sans", serif;
+    
+    
+}
+
+.content div {
+    width: 50%;
+}
+
+.featured{
+    width:100%;
+    align-items: left;
+    height:auto ;
+    margin-left: 0;
+    
+   
+}
+.featured-project{
+    color: white;
+    /* margin-left: 600px; */
+   /* margin-top: -400px; */
+   font-size: 48px;
+   font-family: "Plus Jakarta Sans", serif;
+   display: flex;
+   flex-direction: column;
+}
+.project{
+    color: white;
+   
+    width: 550px;
+    font-size:24px ;
+    font-family:"Plus Jakarta Sans", serif ;
+    
+}
+
+
+.box{
+    background-color: rgb(1, 12, 8);
+    border: 1px solid gray;
+   
+   width: 90%;
+   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:96px ;
+  overflow: hidden;
+  
+
+}
+
+
+.service{
+    font-weight: bold;
+    font-size: 34px;
+    margin-left: 100px;
+    padding: 48px 0;
+    font-family: "Plus Jakarta Sans", serif;
+    
+}
+
+
+
+.line{
+    margin-top: 35px;
+}
+.content-last{
+    width: 648px;
+    height: 154px;
+   margin-left: 790px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.client{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.grid14{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.grid15{
+
+margin-left: 40px;
+margin-bottom: -10px;
+}
+.grid16{
+    margin-bottom: 50px;
+    margin-left: 40px;
+    
+}
+.grid17{
+    margin-left: 40px;
+    margin-bottom: -10px;
+}
+.grid-side1{
+    margin-left: 30px;
+}
+.Footer{
+    color: gray;
+    font-size: 28px;
+    margin-top:70px;
+    margin-left:80px;
+}
+
+.Explore:hover{
+background-color: green;
+}
+
+h4{
+    font-family:"Plus Jakarta Sans", serif ;
+    font-weight: 500;
+    font-size: 20px;
+    color: #D6DDE6;
+}
+h5{
+    font-family:"Plus Jakarta Sans", serif ;
+    font-size: 17px;
+    color: #D6DDE69E;
+}
+h3{
+    font-size: 48px;
+}
+
+
+
+
+
+.service {
+    width: 93vw;
+}
+.my-services {
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+.my-services-1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.my-services-1 img {
+    width: 100%;
+}
+.my-services-1 p:nth-child(even) {
+    font-family: "Plus Jakarta Sans", serif ;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+}
+.my-services-1 p:nth-child(odd) {
+    font-family: "Plus Jakarta Sans", serif ;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+
+}
+.service button{
+    width: 113px;
+    height: 36px;
+    margin-top: 20px;
+    background-color:#A7EE43 ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.feature-img{
+    width:560px ;
+    height: 680px;
+    overflow:hidden;
+
+}
+.service button:hover{
+    background-color: green;
+}
